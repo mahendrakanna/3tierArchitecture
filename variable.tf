@@ -22,7 +22,7 @@ variable "private_db_subnet_cidr" {
   description = "CIDR block for the private database subnet (data tier)."
   type        = list(string)
   default = ["10.0.3.0/24",
-             "10.0.4.0/24"] # Example: one private db subnet
+  "10.0.4.0/24"] # Example: one private db subnet
 }
 
 variable "ami_id" {
@@ -43,7 +43,7 @@ variable "instance_type_app" {
 variable "db_instance_type" {
   description = "RDS DB instance type."
   type        = string
-  default     = "db.t2.micro"
+  default     = "db.t4g.micro"
 }
 variable "db_name" {
   description = "Name of the database."
