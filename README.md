@@ -7,9 +7,13 @@ AWS
 
 ### Terraform commands
  terraform init
+ 
  terraform validate 
+ 
  terraform fmt
+ 
  terraform plan
+ 
  terrform apply 
 
  ### if wanted to delete everything 
